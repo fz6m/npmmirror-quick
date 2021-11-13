@@ -21,8 +21,8 @@
     "build": "rimraf dist && tsc",
     "release": "npm publish --registry=https://registry.npmjs.com/",
     "prepublishOnly": "pnpm build",
-    "test:i": "npm_config_registry=http://localhost:4873/ yarn global add npmmirror",
-    "test:uni": "yarn global remove npmmirror"
+    "test:i": "npm_config_registry=http://localhost:4873/ yarn global add npmmirror-quick",
+    "test:uni": "yarn global remove npmmirror-quick"
   },
   "keywords": [
     "npm",
